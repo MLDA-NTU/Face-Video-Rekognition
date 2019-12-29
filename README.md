@@ -26,8 +26,8 @@ pip install -r requirements.txt  # install all python package required
 ## Run Server
 
 ```bash
-export DATABASE_URI=mysql+pymysql://root:root@127.0.0.1:3306/gtd # get your mysql url, optional
+export FLASK_APP=run.py      # define entry point
 export FLASK_ENV=development # dev mode
-export DEBUG=True # dev mode
+export DEBUG=True            # dev mode
 python run.py # available at 127.0.0.1:5000
 ```
