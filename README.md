@@ -1,16 +1,26 @@
-# GTD Service
+# Face Rekognition App
+
+Face Recognition application which provide real-time face detection + recognition from video stream.
+Using `OpenCV` and `AWS Rekognition API`
 
 ## Requirements
 
-- `python=3.5.2`
-- `MySQL`
-- `virutalvenv`
+### Systems
+- `python > 3.5 or 2.7`
+- `virtualvenv or venv`
 - `git`
+
+### Python libraries
+- `Flask 1.1`
+- `OpenCV 3.4 (opencv-contrib-python)`
+- `Numpy`
 
 ## Installation
 
 ```bash
-pip install -r requirements.txt # ensure that you are using virtualvenv and python 3
+virtualenv venv  # create local virtual environment
+source virtualenv/bin/activate   # activate virtual environment
+pip install -r requirements.txt  # install all python package required
 ```
 
 ## Run Server
